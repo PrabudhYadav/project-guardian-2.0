@@ -1,4 +1,0 @@
-This project uses only Python standard library modules.
-No external dependencies are required.
-Minimum Python version
-Python>=3.8
