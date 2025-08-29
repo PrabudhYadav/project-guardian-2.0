@@ -1,0 +1,14 @@
+record_id,redacted_data_json,is_pii
+1,"{""phone"": ""98XXXXXX10"", ""order_value"": 1299}",True
+2,"{""name"": ""JXXX SXXXX"", ""email"": ""jXXX@gmail.com""}",True
+3,"{""name"": ""John"", ""order_id"": ""12345""}",False
+4,"{""email"": ""test@example.com""}",False
+5,"{""aadhar"": ""1234XXXX9012""}",True
+6,"{""passport"": ""AXXXXXX7""}",True
+7,"{""upi_id"": ""usXX@upi""}",True
+8,"{""address"": ""123 Street, City, 123456""}",False
+9,"{""ip_address"": ""192.168.1.1"", ""device_id"": ""abc123""}",False
+10,"{""name"": ""JXXX DXX"", ""address"": ""4XX RXXX, TXXX, XXXXXX""}",True
+11,"{""first_name"": ""AXXXX"", ""last_name"": ""BXX"", ""email"": ""aXXXX.bXX@example.com""}",True
+12,"{""phone"": ""+91-87XXXXXX10""}",True
+13,"{""aadhar"": ""1234XXXX9012""}",True
